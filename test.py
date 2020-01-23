@@ -1,7 +1,7 @@
-def test_remote() -> None:
-    print('Running remotely and testing')
+def test_remote(data) -> None:
+    print(data)
     return
 
 
 if __name__ == '__main__':
-    test_remote()
+    test_remote("After the change")
